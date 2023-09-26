@@ -29,7 +29,7 @@ export default function () {
     //console.log(res.body);
     check(res, {
         'verify  user id': (r) =>
-            r.body.includes('0037U0000044S9qQAE'),
+            r.body.includes('xxxxxxxxx'),
     });
 }
 // this was run using k6 run load_test.js
