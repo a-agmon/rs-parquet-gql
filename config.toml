@@ -1,0 +1,16 @@
+[configuration]
+s3_bucket ="bucket_name"
+s3_key = "bucket_key/"
+s3_glob = "*.parquet"
+fields = [
+    "id",
+    "account_id",
+    "first_name",
+    "last_name",
+    "email",
+    "department",
+    "created_date",
+    "account_status",
+    "active_package_name",
+    "account_record_type",
+]
